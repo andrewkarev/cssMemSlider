@@ -28,6 +28,7 @@ body {
 
 .slider {
   width: 50vw;
+  min-width: 47.5rem;
 }
 
 .slider__slldes {
@@ -219,4 +220,30 @@ body {
 .slider__button:hover .slider__button-dot {
   background-color: var(--hover-color);
   border-color: var(--hover-color);
+}
+
+.slider__button:active .slider__button-dot {
+  background-color: transparent;
+  border-color: var(--hover-color);
+}
+
+@media screen and (max-width: 767px) {
+  .slider {
+    width: 99vw;
+    min-width: auto;
+  }
+
+  .slider__slldes {
+    max-height: 67vmin;
+  }
+
+  .slider__content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .slider__text-wrapper {
+    max-width: 99vw;
+  }
 }
