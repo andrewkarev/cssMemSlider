@@ -113,25 +113,6 @@ body {
   border-radius: 1rem;
 }
 
-.slider__text-wrapper::-webkit-scrollbar {
-  width: 1rem;
-}
-
-.slider__text-wrapper::-webkit-scrollbar-track {
-  background-color: var(--bg-color-2);
-  border-radius: 0 0.5rem 0.5rem 0;
-}
-
-.slider__text-wrapper::-webkit-scrollbar-thumb {
-  background-color: var(--elem-color);
-  border-radius: 0 0.5rem 0.5rem 0;
-}
-
-.slider__text-wrapper::-webkit-scrollbar-thumb:hover {
-  background-color: var(--hover-color);
-  border-radius: 0.5rem;
-}
-
 .slider__text-content {
   display: flex;
   transition: all 0.3s ease-in-out;
